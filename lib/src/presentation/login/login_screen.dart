@@ -238,7 +238,8 @@ class LoginScreen extends ConsumerWidget {
                                   crossAxisAlignment: WrapCrossAlignment.center,
                                   children: [
                                     Text(
-                                      '¿No tienes una cuenta? ',
+                                      '',
+                                      //¿No tienes una cuenta?
                                       style: theme.textTheme.bodyMedium,
                                     ),
                                     GestureDetector(
@@ -246,7 +247,8 @@ class LoginScreen extends ConsumerWidget {
                                         // Navega a registro si lo tienes
                                       },
                                       child: Text(
-                                        'Solicitar una cuenta',
+                                        '',
+                                        //Solicitar una cuenta
                                         style: theme.textTheme.bodyMedium
                                             ?.copyWith(
                                               color: const Color(0xFF0F7AA8),
